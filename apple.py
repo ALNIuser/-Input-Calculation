@@ -4,5 +4,7 @@ print('Расчет равного количества яблок на кажд
 print('Яблок в корзине', number_input)
 print('Школьников', school_child, 'человек')
 number_apple = int(number_input) // int(school_child)
-print("Каждый школьник получит по", number_apple, 'яблоку')
+if int(number_apple) < int(school_child):
+    print('Количество яблок меньше количества учеников')
+print("Каждый ученик получит по", number_apple, 'яблоку')
 print('В корзине останется ', int(number_input) % int(school_child))
