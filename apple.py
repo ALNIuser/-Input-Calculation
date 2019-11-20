@@ -8,7 +8,8 @@ if int(number_input) < int(school_child):
     print('Количество яблок меньше количества учеников, поэтому яблоки раздаваться не будут')
 else:
     print("Каждый ученик получит по", number_apple, 'яблок')
-print('В корзине останется ', int(number_input) % int(school_child))
+print('В корзине останется ', int(number_input) % int(school_child) , 'яблок')
+
 
 
 
