@@ -1,4 +1,4 @@
-number_input = input('Введите количество яблок : ')
+number_input = input('Enter the number of apples : ')
 school_child = input('Введите количество учеников : ')
 print('Расчет равного количества яблок на каждого ученика :')
 print('- Яблок в корзине было', number_input)
