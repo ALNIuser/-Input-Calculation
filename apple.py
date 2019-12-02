@@ -2,7 +2,7 @@ number_input = input('Enter the number of apples : ')
 school_child = input('Enter the number of students : ')
 print('Calculation of an equal number of apples per student :')
 print('- Яблок в корзине было', number_input)
-print('- Школьников', school_child, 'человек')
+print('- Schoolchildren ', school_child, 'человек')
 number_apple = int(number_input) // int(school_child)
 if int(number_input) < int(school_child):
     print('- Количество яблок меньше количества учеников, поэтому, яблоки раздаваться не будут')
