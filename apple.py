@@ -1,5 +1,5 @@
 number_input = input('Введите количество яблок : ')
-school_child = input('Enter the number of students: ')
+school_child = input('Введите количество человек: ')
 print('Calculation of an equal number of apples per student :')
 print('- The apple in the basket was ', number_input)
 print('- Number of students ', school_child, 'человек')
