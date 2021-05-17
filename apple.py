@@ -9,6 +9,8 @@ if int(number_input) < int(school_child):
 else:
     print("- Each student will receive", number_apple, 'apples')
 print('- Will remain in the basket ', int(number_input) % int(school_child) , 'apples')
+for number in range(5):
+    print(number)
 
 
 
