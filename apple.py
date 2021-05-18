@@ -1,3 +1,4 @@
+from random import randint
 number_input = input('Введите количество яблок : ')
 school_child = input('Введите количество человек: ')
 print(' Расчет равного количества яблок на одного человека:')
@@ -9,9 +10,9 @@ if int(number_input) < int(school_child):
 else:
     print("- Each student will receive", number_apple, 'apples')
 print('- Will remain in the basket ', int(number_input) % int(school_child) , 'apples')
-for number in range(5):
-    print(number)
-
+#for number in range(5):
+#    print(number)
+print("Вывод случайного целого числа ", randint(0, 100))
 
 
 
