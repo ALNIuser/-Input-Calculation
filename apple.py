@@ -9,7 +9,7 @@ if int(number_input) < int(school_child):
     print('- Количество яблок меньше, чем количество людей, поэтому яблоки раздавать не будут !')
 else:
     print("- Каждый человек получит ", number_apple, 'яблок')
-print('- Will remain in the basket ', int(number_input) % int(school_child) , 'apples')
+print('- В корзине останется ', int(number_input) % int(school_child) , 'яблок')
 #for number in range(5):
 #    print(number)
 print("Вывод случайного целого числа ", randint(0, 100))
