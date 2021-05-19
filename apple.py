@@ -10,19 +10,18 @@ from random import randint
 #else:
 #    print("- Каждый человек получит по ", number_apple, 'яблок')
 #print('- В корзине останется ', int(number_input) % int(school_child) , 'яблок')
-
 def zz():
  y = randint(1, 30)
  x = y + randint(50, 100)
  #   if x < y:
  z = x // y
  print('test', str(z))
- return z
-for number in range(3):
-  x = zz()
-  print(x)
-  x += randint(50, 100)
-  print(x)
+# return z
+#for number in range(3):
+#  x = zz()
+#  print(x)
+#  x += randint(50, 100)
+#  print(x)
 #print("Вывод случайного целого числа ", randint(0, 100))
 
 
