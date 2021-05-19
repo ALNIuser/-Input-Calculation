@@ -8,7 +8,7 @@ number_apple = int(number_input) // int(school_child)
 if int(number_input) < int(school_child):
     print('- Количество яблок меньше, чем количество людей, поэтому яблоки раздавать не будут !')
 else:
-    print("- Each student will receive", number_apple, 'яблок')
+    print("- Каждый человек получит ", number_apple, 'яблок')
 print('- Will remain in the basket ', int(number_input) % int(school_child) , 'apples')
 #for number in range(5):
 #    print(number)
