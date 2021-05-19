@@ -1,4 +1,5 @@
 from random import randint
+from random import random
 #number_input = input('Введите количество яблок : ')
 #school_child = input('Введите количество человек: ')
 #print(' Расчет равного количества яблок на одного человека:')
@@ -10,20 +11,16 @@ from random import randint
 #else:
 #    print("- Каждый человек получит по ", number_apple, 'яблок')
 #print('- В корзине останется ', int(number_input) % int(school_child) , 'яблок')
-def zz():
+def function_zz():
  y = randint(1, 30)
  x = y + randint(50, 100)
  #   if x < y:
  z = x // y
- print('test', str(z))
+ print('test',z)
 # return z
-#for number in range(3):
-#  x = zz()
-#  print(x)
-#  x += randint(50, 100)
-#  print(x)
-#print("Вывод случайного целого числа ", randint(0, 100))
-
-
-
-
+for num in range(3):
+ x = function_zz()
+ print(x)
+# x += randint(50, 100)
+ print(x)
+ print("Вывод случайного целого числа ", randint(0, 100))
